@@ -13,10 +13,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #651f71;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0.2);
+}
+
 .container {
     background-color: #ffebcd;
     padding: 40px;
     width: 450px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
